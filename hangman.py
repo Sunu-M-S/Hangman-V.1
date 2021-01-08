@@ -39,14 +39,12 @@ def start():  #Intro
 
     if (selection == 2):
         keyword = randomworda(0)
-        print(keyword)
         hangman(keyword)
     if (selection == 3):
         sys.exit(0)
 
 
 def hangman(word): #game 
-    print(word)
     wrong = 0
     stages = ["",
              "________ ",
